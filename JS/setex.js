@@ -14,3 +14,8 @@ const a1 = num.filter((n)=>{
     return (n%2 == 0);
 })
 console.log(a1);
+
+const a2 = num.reduce((n)=>{
+    return (n+=n);
+})
+console.log(a2);
